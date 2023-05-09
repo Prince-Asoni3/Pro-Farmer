@@ -1,0 +1,36 @@
+table{
+    position: absolute;
+    left: 35%;
+    top: 50%;
+     border: solid;
+    border-color: blue;
+    border-collapse: collapse;
+    
+}
+td{
+    border: solid;
+    border-collapse: collapse;
+    border-color: blue;
+}
+th{
+    border: solid;
+    border-color: blue;
+    border-collapse: collapse;
+    background: yellow;
+}
+html{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(360deg,blue,yellow ,black,green,brown,skyblue);
+}
+body{
+    background: green;
+    border-radius: 50px;
+cursor: pointer;
+transition: 5s;
+color: skyblue;
+
+}
+:hover{
+color: beige;
+}
